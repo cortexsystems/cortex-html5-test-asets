@@ -4,7 +4,7 @@ import {getRandomInt} from '../common.js';
 
 let assets = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg'];
 
-let setUpAnimation = (img) => {
+let setUpAnimation = img => {
   let reverse = true;
   img.addEventListener('transitionend', function(e) {
     e.stopPropagation();

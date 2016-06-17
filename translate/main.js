@@ -4,7 +4,7 @@ import {getRandomInt} from '../common.js';
 
 let assets = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg'];
 
-let setUpAnimation = (img) => {
+let setUpAnimation = img => {
   let reverse = true;
   let rect = img.getBoundingClientRect();
   let x = rect.bottom + getRandomInt(0, 400);
@@ -23,7 +23,7 @@ let setUpAnimation = (img) => {
     img.style.transform = `translate(${x}px,${y}px)`;
   });
 };
-                                                                       
+
 let main = () => {
   let container = window.document.getElementById('content');
   for (let i = 0; i < 12; i++) {
