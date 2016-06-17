@@ -1,0 +1,27 @@
+{
+  "name": "cortex-html5-test-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "eslint": "^2.12.0",
+    "eslint-config-google": "^0.6.0",
+    "webpack": "^1.13.1"
+  }
+}
