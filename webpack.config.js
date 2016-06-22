@@ -3,7 +3,8 @@ var path = require('path');
 var webpack = require('webpack');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
-var apps = ['opacity', 'scale', 'rotate', 'translate', 'skew'];
+var apps = ['opacity', 'scale', 'rotate', 'translate', 'skew', 'webgl-rotate',
+  'webgl-move'];
 
 var outDir = path.resolve(__dirname, 'build');
 

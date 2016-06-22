@@ -9,7 +9,7 @@ S3BUCKET=s3://cortex-test-assets/animation/
 rm -rf ${BUILD}
 npm run build
 
-for app in opacity rotate scale skew translate
+for app in opacity rotate scale skew translate webgl-rotate webgl-move
 do
     pushd ${BUILD}/${app}
     zip -r ${app}.zip *
